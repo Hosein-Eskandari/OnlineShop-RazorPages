@@ -61,7 +61,7 @@ Run with Visual Studio
 
       Update-Database -Context [DbContextName]
 
-- `Replace YourContextName with:`
+- `Replace [DbContextName] with:`
 
       ShopContext
 
