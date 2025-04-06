@@ -105,11 +105,11 @@ OnlineShop-RazorPages/
 └── README.md
 
 ## 👨‍💻 About the Developer
-`Name: Hosein Eskandari`
+Name: `Hosein Eskandari`
 
-`GitHub: @Hosein-Eskandari`
+GitHub: `@Hosein-Eskandari`
 
-`Email: hosein.eskandariii1994@gmail.com`
+Email: `hosein.eskandariii1994@gmail.com`
 
 
 
