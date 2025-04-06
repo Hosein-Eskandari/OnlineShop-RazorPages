@@ -46,3 +46,16 @@ Domain/
 Application/
 Application.Contracts/
 Infrastructure/
+
+
+## ⚙️ Getting Started
+Run with Visual Studio
+Open the solution in Visual Studio.
+
+Go to: Tools > NuGet Package Manager > Package Manager Console.
+
+In the Package Manager Console, set the Default Project to the corresponding Infrastructure.EFCore layer of a context.
+
+Run the following command to apply migrations and create the database:
+
+Update-Database -Context YourContextName
