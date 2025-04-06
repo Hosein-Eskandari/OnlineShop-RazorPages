@@ -41,28 +41,27 @@ The project includes the following **bounded contexts**, each structured indepen
 
 Each context has:
 
-```plaintext
-Domain/
-Application/
-Application.Contracts/
-Infrastructure/
+- `Domain`
+- `Application`
+- `Application.Contracts`
+- `Infrastructure`
 
-```
-
+---
 
 ## ⚙️ Getting Started
 Run with Visual Studio
-Open the solution in Visual Studio.
 
-Go to: Tools > NuGet Package Manager > Package Manager Console.
+- ` Open the solution in Visual Studio.`
 
-In the Package Manager Console, set the Default Project to the corresponding Infrastructure.EFCore layer of a context.
+- `Go to: Tools > NuGet Package Manager > Package Manager Console.`
 
-Run the following command to apply migrations and create the database:
+- `In the Package Manager Console, set the Default Project to the corresponding Infrastructure.EFCore layer of a context.`
 
-Update-Database -Context YourContextName
+- `Run the following command to apply migrations and create the database:`
 
-Replace YourContextName with:
+      Update-Database -Context YourContextName
+
+- `Replace YourContextName with:`
 
 ShopContext
 
