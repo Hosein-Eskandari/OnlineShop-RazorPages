@@ -108,6 +108,19 @@ OnlineShop-RazorPages/
 
 ```
 
+
+### Description of Each Layer:
+
+- **Domain**: Contains core business logic, entities, and value objects.
+- **Application**: Contains the business services and use cases that orchestrate the flow of data and logic.
+- **Application.Contract**: Defines interfaces and contracts for the Application layer.
+- **Infrastructure**: Contains the implementation of external services, such as database access, file storage, etc.
+
+---
+
+This structure is designed to ensure **separation of concerns** and **dependency inversion**, making the application easier to maintain and scale.
+
+
 ## 👨‍💻 About the Developer
 Name: `Hosein Eskandari`
 
