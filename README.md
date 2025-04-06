@@ -58,8 +58,6 @@ Go to: Tools > NuGet Package Manager > Package Manager Console.
 
 In the Package Manager Console, set the Default Project to the corresponding Infrastructure.EFCore layer of a context.
 
----
-
 Run the following command to apply migrations and create the database:
 
 Update-Database -Context YourContextName
@@ -81,11 +79,13 @@ InventoryContext
 Press F5 to build and run the project.
 
 
-🎬 Demo
+---
+
+## 🎬 Demo
 A demo is being prepared and will be added here soon.
 Stay tuned for a live preview of the application right in the browser.
 
-📁 Project Structure
+## 📁 Project Structure
 
 OnlineShop-RazorPages/
 │
@@ -105,7 +105,7 @@ OnlineShop-RazorPages/
 ├── WebUI/             # Razor Pages - UI Layer
 └── README.md
 
-👨‍💻 About the Developer
+## 👨‍💻 About the Developer
 Name: Hosein Eskandari
 
 GitHub: @Hosein-Eskandari
