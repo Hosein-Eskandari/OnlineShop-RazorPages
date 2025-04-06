@@ -86,6 +86,8 @@ Stay tuned for a live preview of the application right in the browser.
 
 ## 📁 Project Structure
 
+```
+
 OnlineShop-RazorPages/
 │
 ├── Shop/
@@ -103,6 +105,8 @@ OnlineShop-RazorPages/
 │
 ├── WebUI/             # Razor Pages - UI Layer
 └── README.md
+
+```
 
 ## 👨‍💻 About the Developer
 Name: `Hosein Eskandari`
