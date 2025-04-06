@@ -63,17 +63,17 @@ Run with Visual Studio
 
 - `Replace YourContextName with:`
 
-ShopContext
+      ShopContext
 
-AccountContext
+      AccountContext
 
-BlogContext
+      BlogContext
 
-CommentContext
+      CommentContext
 
-DiscountContext
+      DiscountContext
 
-InventoryContext
+      InventoryContext
 
 Press F5 to build and run the project.
 
