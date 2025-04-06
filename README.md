@@ -75,7 +75,7 @@ Run with Visual Studio
 
       InventoryContext
 
-Press F5 to build and run the project.
+- `Press F5 to build and run the project.`
 
 
 ---
@@ -105,11 +105,11 @@ OnlineShop-RazorPages/
 └── README.md
 
 ## 👨‍💻 About the Developer
-Name: Hosein Eskandari
+`Name: Hosein Eskandari`
 
-GitHub: @Hosein-Eskandari
+`GitHub: @Hosein-Eskandari`
 
-Email: hosein.eskandariii1994@gmail.com
+`Email: hosein.eskandariii1994@gmail.com`
 
 
 
