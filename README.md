@@ -59,7 +59,7 @@ Run with Visual Studio
 
 - `Run the following command to apply migrations and create the database:`
 
-      Update-Database -Context YourContextName
+      Update-Database -Context [DbContextName]
 
 - `Replace YourContextName with:`
 
