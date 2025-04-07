@@ -83,10 +83,10 @@ Run with Visual Studio
 ## 🎬 Demo
 
 ### 🛍️ User View
-![User Demo](./assets/demo1.gif)
+![User Demo](./assets/User-View.gif)
 
 ### 🛠️ Admin Panel
-![Admin Demo](./assets/demo2.gif)
+![Admin Demo](./assets/Admin-Panel.gif)
 
 
 ## 📁 Project Structure
