@@ -81,8 +81,13 @@ Run with Visual Studio
 ---
 
 ## 🎬 Demo
-A demo is being prepared and will be added here soon.
-Stay tuned for a live preview of the application right in the browser.
+
+### 🛍️ User View
+![User Demo](./assets/demo1.gif)
+
+### 🛠️ Admin Panel
+![Admin Demo](./assets/demo2.gif)
+
 
 ## 📁 Project Structure
 
