@@ -85,6 +85,8 @@ Run with Visual Studio
 ### 🛍️ User View
 ![User Demo](./assets/User-View.gif)
 
+---
+
 ### 🛠️ Admin Panel
 ![Admin Demo](./assets/Admin-Panel.gif)
 
