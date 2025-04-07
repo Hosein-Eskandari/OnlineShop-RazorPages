@@ -80,14 +80,14 @@ Run with Visual Studio
 
 ---
 
-## 🎬 Demo
+## 📽️ Demo
 
-### 🛍️ User View
+### 👥 User View
 ![User Demo](./assets/User-View.gif)
 
 ---
 
-### 🛠️ Admin Panel
+### ⚙️ Admin Panel
 ![Admin Demo](./assets/Admin-Panel.gif)
 
 
