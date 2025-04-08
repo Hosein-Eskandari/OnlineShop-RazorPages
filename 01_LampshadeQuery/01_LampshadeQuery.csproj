@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net8.0</TargetFramework>
+		<LangVersion>11</LangVersion>
+		<RootNamespace>_01_LampshadeQuery</RootNamespace>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\BlogManagement.Infrastructure.EFCore\BlogManagement.Infrastructure.EFCore.csproj" />
+		<ProjectReference Include="..\CommentManagement.Infrastructure.EFCore\CommentManagement.Infrastructure.EFCore.csproj" />
+		<ProjectReference Include="..\DiscountManagement.Infrastructure.EFcore\DiscountManagement.Infrastructure.EFCore.csproj" />
+		<ProjectReference Include="..\InventoryManagement.Infrastructure.EFCore\InventoryManagement.Infrastructure.EFCore.csproj" />
+		<ProjectReference Include="..\ShopManagement.Infrastructure.EFcore\ShopManagement.Infrastructure.EFCore.csproj" />
+	</ItemGroup>
+
+</Project>

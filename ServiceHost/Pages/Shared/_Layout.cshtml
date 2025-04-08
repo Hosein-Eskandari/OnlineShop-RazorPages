@@ -1,0 +1,89 @@
+﻿<!DOCTYPE html>
+<html lang="fa">
+
+<head>
+
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    @if (ViewData["Title"] != null)
+    {
+        <title>فروشگاه لوازم خانگی | @ViewData["Title"] </title>
+    }
+    else
+    {
+        <title>فروشگاه لوازم خانگی </title>
+    }
+
+    <meta name="Keywords" content="@ViewData["Keywords"]"/>
+    <meta name="description" content="@ViewData["metaDescription"]"/>
+    <!-- Vendor CSS -->
+    <link href="~/Theme/assets/css/vendors.css" rel="stylesheet">
+    <!-- Main CSS -->
+    <link href="~/Theme/assets/css/style.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="~/Theme/assets/css/Custom.css" rel="stylesheet">
+</head>
+
+<body>
+
+@await Component.InvokeAsync("Menu")
+
+@RenderBody()
+
+@await Component.InvokeAsync("Footer")
+
+
+<div class="search-overlay" id="search-overlay">
+    <a href="javascript:void(0)" class="close-search-overlay" id="close-search-overlay">
+        <i class="ion-ios-close-empty"></i>
+    </a>
+
+    <!--=======  search form  =======-->
+
+    <div class="search-form">
+        <form method="get" asp-page="/Search">
+            <input type="search" name="value" id="value" placeholder="عبارت مورد نظر خود را جستجو کنید...">
+            <button type="submit">
+                <i class="ion-android-search"></i>
+            </button>
+        </form>
+    </div>
+
+    <!--=======  End of search form  =======-->
+</div>
+
+
+<!-- scroll to top  -->
+<div id="scroll-top">
+    <span>بازگشت به ابتدای صفحه</span><i class="ion-chevron-right"></i><i class="ion-chevron-right"></i>
+</div>
+<!-- end of scroll to top -->
+
+
+<!-- jquery.min JS -->
+<script src="~/lib/jquery/dist/jquery.min.js"></script>
+
+<!-- Vendor JS -->
+<script src="~/Theme/assets/js/vendors.js"></script>
+
+<!-- Active JS -->
+<script src="~/Theme/assets/js/active.js"></script>
+
+<!-- plugins JS -->
+<script src="~/Theme/assets/js/plugins.js"></script>
+
+<!-- Custom JS -->
+<script src="~/Theme/assets/js/custom.js"></script>
+
+
+<script>
+
+    $(document).ready(function() {
+        updateCart();
+    });
+
+</script>
+
+</body>
+
+</html>

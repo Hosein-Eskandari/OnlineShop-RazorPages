@@ -1,0 +1,18 @@
+﻿@{
+    Layout = "_Layout";
+}
+
+@*@{
+    var routeUrl = ViewContext.RouteData.Values["Page"].ToString();
+    //you can put pages' name into pages
+    var pages = new List<string> { "Index1hasemi"};
+    //if routeUrl contains any of pages,the page will use _Layout as Layout page,the other pages will use _Layout1 ad Layout page
+    if (pages.Any(routeUrl.Contains))
+    {
+        Layout = "_Layout1";
+    }
+    else {
+        Layout = "_Layout";
+    }
+
+}*@

@@ -1,0 +1,55 @@
+.notifyjs-metro-base {
+    -o-animation: dropdownOpen 0.3s ease-out;
+    -webkit-animation: dropdownOpen 0.3s ease-out;
+    -webkit-border-radius: 3px;
+    animation: dropdownOpen 0.3s ease-out;
+    border-radius: 3px;
+    box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.2);
+    color: #444;
+    min-height: 52px;
+    min-width: 250px;
+    position: relative;
+}
+
+.notifyjs-metro-base .image {
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    display: table;
+    font-size: 24px;
+    height: auto;
+    left: 25px;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: auto;
+}
+
+.notifyjs-metro-base .text-wrapper {
+    clear: both;
+    display: inline-block;
+    margin: 10px 10px 10px 52px;
+    text-align: left;
+    vertical-align: top;
+}
+
+.notifyjs-metro-base .title {
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 20px;
+    margin-bottom: 5px;
+}
+
+.notifyjs-metro-base .text {
+    font-size: 12px;
+    font-weight: normal;
+    max-width: 360px;
+    vertical-align: middle;
+}
+
+.notifyjs-metro-cool {
+    background-color: #4A525F;
+    border: 1px solid #4A525F;
+    color: #fafafa !important;
+}

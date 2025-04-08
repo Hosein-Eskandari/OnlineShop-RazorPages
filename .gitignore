@@ -1,0 +1,29 @@
+# Ignore image files
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+*.ico
+
+# Ignore bin and obj folders
+**/bin/
+**/obj/
+
+# Ignore Visual Studio files
+.vs/
+*.user
+*.suo
+
+# Ignore build results
+*.dll
+*.exe
+
+# Ignore publish directory
+publish/
+
+# Ignore database files
+*.mdf
+*.ldf
+
