@@ -128,10 +128,6 @@ OnlineShop-RazorPages/
 This structure is designed to ensure **separation of concerns** and **dependency inversion**, making the application easier to maintain and scale.
 
 
-## 👨‍💻 About the Developer
-Name: `Hosein Eskandari`
-
-GitHub: `@Hosein-Eskandari`
 
 
 
