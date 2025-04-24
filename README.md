@@ -133,7 +133,6 @@ Name: `Hosein Eskandari`
 
 GitHub: `@Hosein-Eskandari`
 
-Email: `hosein.eskandariii1994@gmail.com`
 
 
 
